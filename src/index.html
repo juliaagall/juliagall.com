@@ -1,0 +1,36 @@
+{% extends "template.html" %}
+
+{% set page="home" %}
+
+{% block meta %}
+  <title>Personal Bootstrap Template</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+{% endblock %}
+
+{% block content %}
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    {% include "parts/about-me.html" %}
+
+    {% include "parts/counts.html" %}
+    
+    {% include "parts/skills.html" %}
+
+    {% include "parts/interests.html" %}
+
+    {% include "parts/testimonials.html" %}
+
+  </section><!-- End About Section -->
+
+  {% include "parts/resume-section.html" %}
+
+  {% include "parts/services-section.html" %}
+
+  {% include "parts/portfolio-section.html" %}
+
+  {% include "parts/contact-section.html" %}
+
+{% endblock %}
