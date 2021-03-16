@@ -3,14 +3,14 @@
 --------------------------------------------------------------*/
 body {
   font-family: $font-default;
-  background-color: #040404;
-  color: #fff;
+  background-color: #1d2831;
+  color: #1d2831;
   position: relative;
   background: transparent;
   &::before {
     content: "";
     position: fixed;
-    background: #040404 url("../img/bg.jpg") top right no-repeat;
+    background: #1d2831 url("../img/juliabg3.png") top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;

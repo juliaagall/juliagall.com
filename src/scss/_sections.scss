@@ -19,7 +19,7 @@ section {
   }
 
   .container {
-    background: rgba(#000, .9);
+    background: rgba(#dae8ef, .9);
     padding: 30px;
   }
 
@@ -62,7 +62,7 @@ section {
     font-weight: 700;
     text-transform: uppercase;
     font-family: $font-secondary;
-    color: $white;
+    color: $default;
   }
 
 }
@@ -108,7 +108,7 @@ section {
     width: 100%;
     position: relative;
     text-align: center;
-    background: rgba(#fff, .08);
+    background: rgba(#37478e, .08);
 
     i {
       position: absolute;
@@ -116,7 +116,7 @@ section {
       left: 50%;
       transform: translateX(-50%);
       font-size: 24px;
-      background: rgba(#fff, .1);
+      background: rgba(#37478e, .1);
       padding: 12px;
       color: $primary;
       border-radius: 50px;
@@ -126,7 +126,7 @@ section {
       font-size: 36px;
       display: block;
       font-weight: 600;
-      color: #fff;
+      color: #37478e;
     }
 
     p {
@@ -201,7 +201,7 @@ section {
       padding: 0;
       line-height: 1;
       font-size: 16px;
-      color: $white;
+      color: #37478e;
     }
     &:hover {
       background: rgba(#fff, .12);
@@ -304,13 +304,13 @@ section {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: $white;
+    color: $default;
   }
   
   .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid rgba(#fff, .20);
+    border-left: 2px solid rgba(#37478e, .20);
     position: relative;
 
     h4 {
@@ -325,7 +325,7 @@ section {
 
     h5 {
       font-size: 16px;
-      background: rgba(#fff, .15);
+      background: rgba(#37478e, .15);
       padding: 5px 15px;
       display: inline-block;
       font-weight: 600;
@@ -385,7 +385,7 @@ section {
       transform-style: preserve-3d;
 
       i {
-        color: #fff;
+        color: #37478e;
         font-size: 28px;
       }
     
@@ -631,19 +631,19 @@ section {
       border-radius: 50%;
       padding: 14px;
       float: left;
-      background: rgba(#fff, .1);
+      background: rgba(#37478e, .1);
     }
 
     h3 {
       font-size: 20px;
-      color: rgba(#fff, .5);
+      color: rgba(#37478e, .5);
       font-weight: 700;
       margin: 10px 0 8px 68px;
     }
 
     p {
       padding: 0;
-      color: #fff;
+      color: #37478e;
       line-height: 24px;
       font-size: 14px;
       margin: 0 0 0 68px;
@@ -669,7 +669,7 @@ section {
 
   .php-email-form {
     padding: 30px;
-    background: rgba(#fff, .08);
+    background: rgba(#37478e, .08);
 
     .validate {
       display: none;
@@ -681,7 +681,7 @@ section {
     
     .error-message {
       display: none;
-      background: rgba(#fff, .08);
+      background: rgba(#37478e, .08);
       background: #ed3c0d;
       text-align: left;
       padding: 15px;
@@ -693,8 +693,8 @@ section {
     
     .sent-message {
       display: none;
-      background: rgba(#fff, .08);
-      background: #18d26e;
+      background: rgba(#37478e, .08);
+      background: #af9567;
       text-align: center;
       padding: 15px;
       font-weight: 600;
@@ -702,7 +702,7 @@ section {
   
     .loading {
       display: none;
-      background: rgba(#fff, .08);
+      background: rgba(#37478e, .08);
       text-align: center;
       padding: 15px;
   
@@ -713,7 +713,7 @@ section {
         width: 24px;
         height: 24px;
         margin: 0 10px -6px 0;
-        border: 3px solid #18d26e;
+        border: 3px solid #af9567;
         border-top-color: #eee;
         animation: animate-loading 1s linear infinite;
       }
@@ -724,10 +724,10 @@ section {
       border-radius: 0;
       box-shadow: none;
       font-size: 14px;
-      background: rgba(#fff, .08);
+      background: rgba(#37478e, .08);
       border: 0;
       transition: 0.3s;
-      color: #fff;
+      color: #37478e;
       &:focus {
         background-color: rgba(#fff, .11);
       }
